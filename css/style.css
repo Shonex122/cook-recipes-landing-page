@@ -503,7 +503,11 @@ h2 {
 
 .learn-img {
   justify-content: center;
-  background: var(--cl-5--);
+  /* background: var(--cl-5--); */
+}
+
+.learn-img img {
+  border-radius: 16px;
 }
 
 /* instagram */
@@ -618,6 +622,7 @@ footer hr {
     position: absolute;
     right: 5%;
     background-image: url("../img/open.webp");
+    background-color: var(--cl-3--);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
@@ -633,8 +638,9 @@ footer hr {
 
   .toggleMenu.active {
     position: fixed;
-    background-image: url("../img/close.webp ");
+    background-image: url("../img/close.webp");
     background-size: 25px;
+    background-color: var(--cl-3--);
   }
 
   .navigation {
